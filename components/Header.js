@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 import { View, Text, TouchableOpacity } from 'react-native'
-import {useFonts,Oswald_400Regular,Ephesis_400Regular} from "@expo-google-fonts/dev"
 
 export default function Header() {
     const [activeTab,setActiveTab]= useState("Find Doctors")
